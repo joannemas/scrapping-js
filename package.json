@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/joannemas/scrapping-js#readme",
   "dependencies": {
-    "node": "^20.4.0"
+    "node": "^20.4.0",
+    "node-fetch": "^2.0.0"
   }
 }
