@@ -1,0 +1,22 @@
+{
+  "name": "joms-scrapping-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joannemas/scrapping-js.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joannemas/scrapping-js/issues"
+  },
+  "homepage": "https://github.com/joannemas/scrapping-js#readme",
+  "dependencies": {
+    "node": "^20.4.0"
+  }
+}
