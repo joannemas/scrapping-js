@@ -41,11 +41,17 @@ async function scrapeFestivals(region, domaine, departement, moisHabituelDeDebut
 
     return extractedData;
     } else {
-        throw new Error('Erreur');
-    }
+        console.error(response.status);
+        }
     } catch (error) {
-        console.error('Erreur', error);
-        return [];
+        console.error(error);
     }
 }
 
+async function getFilteredFestivals() {
+    return scrapeFestivals('Bourgogne-Franche-Comté', 'Danse', '21', '01 (janvier)');
+}
+
+module.exports = {
+    getFilteredFestivals,
+};
